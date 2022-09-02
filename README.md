@@ -48,7 +48,7 @@ When one hears the word ‘database’, they are likely to think of data stored 
 ## Elasticsearch
 
 While relational databases are commonly used in the industry, it is not the only data type. The other types of databases include key-value, columnar, time-series, NoSQL, etc. To handle NoSQL databases (that do not contain data in rows and columns), data engineers usually use Elasticsearch. Python allows users to manage NoSQL databases with its elasticsearch library.
-#### Great Expectations
+## Great Expectations
 While Pandas is an essential library for analyzing data; there is even a better method to draw relevant conclusions from your data. And that method is to use the Great expectations library. It makes it easy for data engineers to clean data equally and allows them to specify their expectations simply. The library takes care of the backend logic, and it does not matter whether your data belongs to a database or is stored in a dataframe. Additionally, it makes it convenient for data engineers to add production-grade validation to a given data.
 
 ## SciPy
