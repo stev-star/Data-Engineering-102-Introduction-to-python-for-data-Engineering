@@ -33,4 +33,36 @@ Data engineering using Python only gets better, and here is a list of points if 
 
 6.	Apart from all the points mentioned above, it is common knowledge that Python is easy to learn and is free to use for the masses. An active community of developers strongly supports it.
 
+# Top Python Libraries for Data Engineering
+
+ One of the most important features of Python that makes it a perfect fit for data engineering applications is the libraries that it has. Let us explore which are libraries and how data engineers use them.
+ 
+## Pandas
+
+Pandas is the Python library popular among data analysts and data scientists. It is equally useful for data engineers, who often use it for reading, writing, querying, and manipulating data. The advantage of using Pandas dataframes is they are extremely compatible with two popular data types .csv and JSON. Additionally, dataframe objects have many easy-to-use functions that data engineers can perform quick exploratory data analysis. They can also use it to fix common data problems, such as replacing null values with neighborhood averages, removing columns, etc. Thus, Pandas allows data engineers to transform it into a readable and organized form.
+
+## Psycopg2, pyodbc, sqlalchemy
+
+When one hears the word ‘database’, they are likely to think of data stored in the form of tables having various rows and columns. Such type of a database is called a relational database. There are several ways of interacting with such databases and most of them are based on Structured Query Language (SQL). One such tool popular among data engineers is MyPostgreSQL, and Python contains various libraries to connect to MyPostgreSQL, including pyodbc, Sqlalchemy, and psycopg2.
+
+## Elasticsearch
+
+While relational databases are commonly used in the industry, it is not the only data type. The other types of databases include key-value, columnar, time-series, NoSQL, etc. To handle NoSQL databases (that do not contain data in rows and columns), data engineers usually use Elasticsearch. Python allows users to manage NoSQL databases with its elasticsearch library.
+#### Great Expectations
+While Pandas is an essential library for analyzing data; there is even a better method to draw relevant conclusions from your data. And that method is to use the Great expectations library. It makes it easy for data engineers to clean data equally and allows them to specify their expectations simply. The library takes care of the backend logic, and it does not matter whether your data belongs to a database or is stored in a dataframe. Additionally, it makes it convenient for data engineers to add production-grade validation to a given data.
+
+## SciPy
+
+SciPy, as the name suggests, is a library in Python that offers various functions for quick mathematical computations. A data engineer can use this library to perform scientific calculations on their data for better analysis.
+
+## BeautifulSoup
+
+This is a well-known library used for data mining and web scraping. You will find data engineers using this to extract information from websites, dealing with JSON/HTML data formats, all for preparing their data.
+## Petl
+
+Petl is a Python package for extracting, modifying, and loading tabular data. Data engineers use this library for building ETL (Extract, Transform, and Load) pipelines.
+
+## pygrametl
+
+This is another library that supports the efficient deployment of ETL pipelines.
 
