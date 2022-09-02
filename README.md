@@ -24,9 +24,13 @@ Data engineering using Python only gets better, and here is a list of points if 
 
 1.	The role of a data engineer involves working with different types of data formats. For such cases, Python is best suited. Its standard library supports easy handling of .csv files, one of the most common data file formats.
 2.	A data engineer is often required to use APIs to retrieve data from databases. The data in such cases is usually stored in JSON (JavaScript Object Notation) format, and Python has a library named JSON-JSON to handle such type of data.
+
 3.	The responsibility of a data engineer is not only to obtain data from different sources but also to process it. One of the most popular data process engines is Apache Spark which works with Python DataFrames and even offers an API, PySpark, to build scalable big data projects.
+
 4.	Data engineering tools use Directed Acyclic Graphs like Apache Airflow, Apache NiFi, etc. DAGs are nothing but Python codes used for specifying tasks. Thus, learning Python will help data engineers use these tools efficiently.
+
 5.	Luigi! No, not the Mario character by Nintendo; we are referring to the Python module that is widely considered a fantastic tool for data engineering.
+
 6.	Apart from all the points mentioned above, it is common knowledge that Python is easy to learn and is free to use for the masses. An active community of developers strongly supports it.
 
 
